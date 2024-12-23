@@ -1,5 +1,6 @@
 const express = require("express");
 const PostHog = require("posthog-node").PostHog;
+require("dotenv").config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 
